@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    font-size: 20px;
+}
+ 
+.dropbtn {
+    background-color: #004d29;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    padding: 5%;
+    font-size: 700;
+    color: #004d29;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color: #dbf3e2;
+    min-width: 500px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px #fff8f8 (0,0,0,0.2);
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    width: 10%;
+    color: #fff8f8;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #fff8f8;
+}
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+  .dropdown:hover .dropbtn {
+    background-color: #004d29;
+}
